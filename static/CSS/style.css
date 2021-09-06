@@ -1,0 +1,59 @@
+.container {
+  height: 200px;
+  position: absolute;
+  bottom: 20%;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+#large {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FF7A59;
+}
+
+#medium {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#small {
+  font-size: 14px;
+  color: #000000;
+}
+
+#reallysmall {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 0.411);
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #2ba805;
+    box-shadow: 0 0 5px #2ba805;
+  }
+  50% {
+    background-color: #49e819;
+    box-shadow: 0 0 20px #49e819;
+  }
+  100% {
+    background-color: green;
+    box-shadow: 0 0 5px green;
+  }
+}
+
+.button {
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: -10px;
+  line-height: 90%;
+  animation: glowing 1300ms infinite;
+}
