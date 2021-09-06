@@ -1,12 +1,11 @@
-![readme_pic](/readme_pic.png)
+![readme_pic](/pics/readme_pic.png)
  
 #### Table of Contents  
 
 [Project Overview](#project-overview)  
 [Resources](#resources)  
 [Objectives](#objectives)  
-[Summary](#summary)  
-[Limitations](#limitations)  
+[Summary](#summary)    
   
 ## Project Overview  
 In this module, we created a button that is overlaying an iframe video.   
